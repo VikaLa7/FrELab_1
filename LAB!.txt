@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, main, footer {
+            background-color: bisque;
+        /*portofolio website*/
+            
+        }
+
+        #header {
+            height: 100px;
+        }
+
+        .main-content {
+            color: rgb(3, 59, 41);
+        }
+    </style>
+
+    <script>
+
+    </script>
+  </head>
+  <body>
+    <header id="header">
+        <h1>Page header</h1>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <p class="main-content">Main content</p>
+        <img src="C:\Users\Виктория\Documents\osqmufmwfWE.jpg" width="200" height="150"/>
+        <p></p>
+        <a href="https://www.google.ru/">Go to google</a>
+        <p></p>
+        <button onclick="console.log(HELLo)">Cleack me</button>
+    </main>
+    <footer>Page footer</footer>
+  </body>
+</html>
